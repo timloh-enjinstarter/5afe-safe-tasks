@@ -90,6 +90,10 @@ const userConfig: HardhatUserConfig = {
       ...sharedNetworkConfig,
       url: `https://bsc-dataseed.binance.org/`,
     },
+    chapel: {
+      ...sharedNetworkConfig,
+      url: `https://data-seed-prebsc-1-s1.binance.org:8545`,
+    },
   },
   namedAccounts: {
     deployer: 0,

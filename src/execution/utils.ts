@@ -2,7 +2,7 @@ import path from 'path'
 import fs from 'fs/promises'
 import fsSync from 'fs'
 import csvParser from "csv-parser"
-import { MetaTransaction } from '@gnosis.pm/safe-contracts'
+import { MetaTransaction } from '@timloh-enjinstarter/safe-global-safe-contracts'
 
 const cliCacheDir = "cli_cache"
 

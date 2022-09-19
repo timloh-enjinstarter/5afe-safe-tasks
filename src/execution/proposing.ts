@@ -1,6 +1,6 @@
 import { task, types } from "hardhat/config";
 import { multiSendLib, safeSingleton } from "../contracts";
-import { buildMultiSendSafeTx, buildSafeTransaction, calculateSafeTransactionHash, SafeTransaction, MetaTransaction } from "@gnosis.pm/safe-contracts";
+import { buildMultiSendSafeTx, buildSafeTransaction, calculateSafeTransactionHash, SafeTransaction, MetaTransaction } from "@timloh-enjinstarter/safe-global-safe-contracts";
 import { parseEther } from "@ethersproject/units";
 import { getAddress, isHexString } from "ethers/lib/utils";
 import { proposalFile, readFromCliCache, writeToCliCache, writeTxBuilderJson } from "./utils";

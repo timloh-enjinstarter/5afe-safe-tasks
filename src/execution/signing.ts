@@ -1,6 +1,6 @@
 import { task, types } from "hardhat/config";
 import { safeSingleton } from "../contracts";
-import { buildSafeTransaction, SafeSignature, safeSignMessage, signHash } from "@gnosis.pm/safe-contracts";
+import { buildSafeTransaction, SafeSignature, safeSignMessage, signHash } from "@timloh-enjinstarter/safe-global-safe-contracts";
 import { parseEther } from "@ethersproject/units";
 import { isHexString } from "ethers/lib/utils";
 import { SafeTxProposal } from "./proposing";

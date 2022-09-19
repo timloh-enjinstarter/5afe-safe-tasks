@@ -1,7 +1,7 @@
 import { task, types } from "hardhat/config";
 import { AddressZero } from "@ethersproject/constants";
 import { getAddress } from "@ethersproject/address";
-import { buildMultiSendSafeTx, calculateProxyAddress, encodeMultiSend, MetaTransaction } from "@gnosis.pm/safe-contracts";
+import { buildMultiSendSafeTx, calculateProxyAddress, encodeMultiSend, MetaTransaction } from "@timloh-enjinstarter/safe-global-safe-contracts";
 import { safeSingleton, proxyFactory, safeL2Singleton, multiSendCallOnlyLib, compatHandler } from "./contracts";
 import { readCsv, writeJson, writeTxBuilderJson } from "./execution/utils";
 

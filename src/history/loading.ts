@@ -1,5 +1,5 @@
-import { calculateSafeTransactionHash, EIP712_SAFE_TX_TYPE } from '@gnosis.pm/safe-contracts'
-import { getSafeL2SingletonDeployment } from '@gnosis.pm/safe-deployments'
+import { calculateSafeTransactionHash, EIP712_SAFE_TX_TYPE } from '@timloh-enjinstarter/safe-global-safe-contracts'
+import { getSafeL2SingletonDeployment } from '@timloh-enjinstarter/safe-global-safe-deployments'
 import { BigNumber, ethers } from 'ethers'
 import { EtherDetails, EventTx, ModuleTx, MultisigTx, MultisigUnknownTx, TransferDetails, TransferTx } from './types'
 

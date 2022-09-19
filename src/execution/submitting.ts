@@ -1,7 +1,7 @@
 import { BigNumber, Contract, PopulatedTransaction, Signer, utils } from "ethers";
 import { task, types } from "hardhat/config";
 import { safeSingleton } from "../contracts";
-import { buildSafeTransaction, calculateSafeTransactionHash, populateExecuteTx, safeApproveHash, SafeSignature, SafeTransaction } from "@gnosis.pm/safe-contracts";
+import { buildSafeTransaction, calculateSafeTransactionHash, populateExecuteTx, safeApproveHash, SafeSignature, SafeTransaction } from "@timloh-enjinstarter/safe-global-safe-contracts";
 import { parseEther } from "@ethersproject/units";
 import { getAddress } from "@ethersproject/address";
 import { isHexString } from "ethers/lib/utils";

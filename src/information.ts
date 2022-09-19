@@ -1,7 +1,7 @@
 import { task, types } from "hardhat/config";
 import { HardhatRuntimeEnvironment as HRE } from "hardhat/types";
 import { getAddress } from "@ethersproject/address";
-import { AddressOne } from "@gnosis.pm/safe-contracts";
+import { AddressOne } from "@timloh-enjinstarter/safe-global-safe-contracts";
 import { Contract } from "@ethersproject/contracts";
 import { compatHandler, contractFactory, safeSingleton } from "./contracts";
 
